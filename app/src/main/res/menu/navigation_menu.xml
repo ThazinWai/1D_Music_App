@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:title="Home"
+            android:id="@+id/idHome"
+            android:icon="@drawable/home"/>
+
+
+        <item
+            android:title="Songs"
+            android:id="@+id/idSongs"
+            android:icon="@drawable/so"/>
+
+        <item
+            android:title="Albums"
+            android:id="@+id/idAlbums"
+            android:icon="@drawable/al"/>
+
+        <item
+            android:title="Music Video"
+            android:id="@+id/idMusicVideo"
+            android:icon="@drawable/multimedia"/>
+
+        <item
+            android:title="Wallpaper"
+            android:id="@+id/idWallpaper"
+            android:icon="@drawable/wall"/>
+
+        <item
+            android:title="News"
+            android:id="@+id/idNews"
+            android:icon="@drawable/nn"/>
+
+    </group>
+
+    <item android:title="">
+
+        <menu>
+
+            <item
+                android:title="About"
+                android:id="@+id/idAbout"
+                android:icon="@drawable/about"/>
+
+        </menu>
+
+    </item>
+
+</menu>

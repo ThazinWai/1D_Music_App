@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#000"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/idCardView1"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/song"
+            android:scaleType="centerCrop"
+            android:id="@+id/img1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="SONGS"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="112dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/txtSongs"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#748686"
+            android:text="Search Lyrics by Song!"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:layout_below="@id/txtSongs"
+            android:textColor="#fff"
+            />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/idCardView2"
+        android:layout_below="@id/idCardView1"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/albums"
+                android:scaleType="centerCrop"
+                android:id="@+id/img2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="ALBUMS"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="112dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/txtAlbums"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#9C6D6A"
+                android:text="Search Lyrics by Albums!"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:layout_below="@id/txtAlbums"
+                android:textColor="#fff"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/idCardView3"
+        android:layout_below="@id/idCardView2"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/musicvideo"
+                android:scaleType="centerCrop"
+                android:id="@+id/img3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="MUSIC VIDEO"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="112dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/txtMusicVideo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#504B58"
+                android:text="Watch One Direction Music Video!"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:layout_below="@id/txtMusicVideo"
+                android:textColor="#fff"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/idCardView4"
+        android:layout_below="@id/idCardView3"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallpaper"
+                android:scaleType="centerCrop"
+                android:id="@+id/img4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="WALLPAPER"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="112dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/txtWallpaper"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#758B8B"
+                android:text="One Direction Wallpaper is Here!"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:layout_below="@id/txtWallpaper"
+                android:textColor="#fff"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:id="@+id/idCardView5"
+                android:layout_below="@id/idCardView4"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/news"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/img5"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="NEWS"
+                        android:textColor="#FFF"
+                        android:textSize="20sp"
+                        android:layout_marginTop="112dp"
+                        android:layout_marginLeft="16dp"
+                        android:id="@+id/txtNews"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:background="#924C48"
+                        android:text="One Direction Update News!"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="8dp"
+                        android:layout_below="@id/txtNews"
+                        android:textColor="#fff"
+                        />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
